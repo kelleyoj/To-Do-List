@@ -1,0 +1,187 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1486520299386-6d106b22014b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1050&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0; 
+    height: 100vh; 
+    width: 100%;  
+    color: black;
+}
+
+.main{
+    margin: 5% 30% 10% 30%;
+    background-color:#ADD8E6;
+    height: 60vh;
+}
+.header{
+    height: 18vh;
+    background-image: url("https://images.unsplash.com/photo-1483004406427-6acb078d1f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main .header h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+.header #add-to-list{
+    position: absolute;
+    top: 24%;
+    left: 48%;
+    
+}
+.header span .fas{
+    font-size: 1.5rem;
+    background-color: #00BFFF;
+    color: white;
+    border: 1px solid #00BFFF;
+    border-radius: 13px;
+    padding: .4rem;
+}
+
+.bottom{
+   width: 100%;
+   height: 100%;
+   margin-bottom: 10%;
+}
+
+.bottom #input{
+    font-size: 2rem;
+    width: 60%;
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 3%;
+    display: inline;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.bottom #input:focus{
+    outline:0;
+}
+
+.bottom .input button{
+    font-size: 1rem;
+    width: 16%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 5%;
+    color: white;
+    background-color: #00BFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.bottom .input button:focus {
+    outline:0;
+}
+
+.visible{
+    display: none;
+}
+
+ul{
+    padding: 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+ul li{
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;;
+    list-style: none;
+    padding-bottom: 1rem;
+    background-color: 	#87CEFA;
+}
+
+ul li .fa-times-circle{
+    padding-left: 1rem;
+}
+ul li .fa-edit{
+    padding-left: .5rem;
+}
+
+ul li:nth-child(odd){
+    background-color: #00BFFF;
+}
+
+.li-click-style{
+    margin-top: 12%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .main {
+        margin: 26% 10% 10% 10%;
+        height: 50vh;
+    }
+    .main .header h1{
+        font-size: 5rem;
+        padding-top: .5%;
+    }
+    .header #add-to-list{  
+        top: 35%;
+        left: 44%; 
+    }
+    .header span .fas{
+        font-size: 3.5rem;
+        border-radius: 60px;  
+    }
+    .bottom #input{
+        font-size: 2.5rem;
+        margin-top: 12%;
+    }
+    .bottom .input button{
+        font-size: 1.3rem;
+    }
+  }
+
+@media only screen and (max-width: 450px){
+    .main .header h1{
+        font-size: 2.9rem;
+    }
+    .header #add-to-list{  
+        top: 30%;
+    }
+    .header span .fas{
+        font-size: 1.5rem;
+    }
+    .bottom #input{
+        font-size: 1.5rem;
+    }
+    .bottom .input button{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .header #add-to-list{  
+        top: 28%;
+    }
+    .header span .fas{
+        font-size: 1.8rem;
+    }
+
+    .bottom #input{
+        margin-top: 17%;
+    }
+   
+}
+
+@media only screen and (max-width: 360px){
+    .header #add-to-list{  
+        top: 29%;
+    }
+    .header span .fas{
+        font-size: 1.8rem;
+    } 
+}
+
