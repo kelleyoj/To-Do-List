@@ -3,8 +3,6 @@ var input = document.querySelector('.input');
 var newLi = document.querySelector('.input button');
 var ul = document.querySelector('ul');
 
-init();
-
 addBtn.addEventListener('click', function () {
     input.classList.toggle("visible");
     ul.classList.toggle('li-click-style');
@@ -26,7 +24,4 @@ newLi.addEventListener('click', function(){
     ul.append(li);
 });
 
-function init(){
-    // ul.classList.add('li-click-style');
-}
 
