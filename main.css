@@ -6,7 +6,7 @@ body{
     background-attachment: fixed;
     margin: 0;
     padding: 0; 
-    height: 100vh; 
+    height: 100%; 
     width: 100%;  
     color: black;
 }
@@ -14,7 +14,6 @@ body{
 .main{
     margin: 5% 30% 10% 30%;
     background-color:#ADD8E6;
-    height: 60vh;
 }
 .header{
     height: 18vh;
@@ -121,7 +120,7 @@ ul li:nth-child(odd){
 @media only screen and (max-width: 1024px) {
     .main {
         margin: 26% 10% 10% 10%;
-        height: 50vh;
+        height: 100%;
     }
     .main .header h1{
         font-size: 5rem;
